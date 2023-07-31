@@ -8,6 +8,7 @@ app.get("/", (req:Request, res:Response) => {
 });
 
 app.get("/bookstore",(req,res)=>{
+  throw Error("A");
   res.send("this is the book store and here you can get many type of the books aof the diffrent genre");
 })
 
